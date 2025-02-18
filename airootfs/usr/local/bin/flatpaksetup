@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo && flatpak install flathub -y com.github.Murmele.Gittyup it.mijorus.gearlever io.podman_desktop.PodmanDesktop com.heroicgameslauncher.hgl com.valvesoftware.Steam com.github.tchx84.Flatseal io.github.giantpinkrobots.flatsweep com.discordapp.Discord org.localsend.localsend_app io.kopia.KopiaUI org.raspberrypi.rpi-imager
