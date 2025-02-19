@@ -6,6 +6,7 @@ iso_label="PineconeOS_25_01_01"
 iso_publisher="Pinecone OS <https://github.com/JoshCodeStuff>"
 iso_application="Pinecone OS Live"
 iso_version="25_01_01"
+cow_spacesize="8G"
 install_dir="arch"
 buildmodes=('iso')
 bootmodes=('bios.syslinux.mbr' 'bios.syslinux.eltorito'

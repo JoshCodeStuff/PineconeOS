@@ -22,13 +22,8 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][1][General]
-positions={"1280x800":[],"1876x999":["3","17","desktop:/unpackfs2.conf","2","1","desktop:/sddm-breeze-pineconeos","0","3","desktop:/ISO","0","0","desktop:/Output","1","1","desktop:/calamares","0","2","desktop:/Helpers","0","1","desktop:/PineconeOS-250101","1","0","desktop:/unpackfs1.conf","2","0"],"1920x1080":["5","17","desktop:/pineconeos-calamares-settings","0","1","desktop:/ISO","4","3","desktop:/Helpers","2","0","desktop:/calamares","0","2"]}
+positions={"1280x800":[],"1876x999":["3","17","desktop:/Output","1","1","desktop:/ISO","0","0","desktop:/Helpers","0","1","desktop:/unpackfs2.conf","2","1","desktop:/unpackfs1.conf","2","0","desktop:/PineconeOS-250101","1","0","desktop:/calamares","0","2"],"1920x1080":["5","17","desktop:/pineconeos-calamares-settings","0","1","desktop:/ISO","4","3","desktop:/Helpers","2","0","desktop:/calamares","0","2"]}
 sortMode=-1
-
-[Containments][1][Wallpaper][org.kde.image][General]
-Image=/usr/share/wallpapers/PineconeOS/
-PreviewImage=/usr/share/wallpapers/PineconeOS/
-SlidePaths=/usr/share/wallpapers/
 
 [Containments][2]
 activityId=
@@ -38,6 +33,14 @@ lastScreen=0
 location=4
 plugin=org.kde.panel
 wallpaperplugin=org.kde.image
+
+[Containments][26][Wallpaper][org.kde.image][General]
+Image=file:///usr/share/wallpapers/PineconeOS/contents/images/5120x2880.png
+
+[Containments][1][Wallpaper][org.kde.image][General]
+Image=file:///usr/share/wallpapers/PineconeOS/contents/images/5120x2880.png
+PreviewImage=file:///usr/share/wallpapers/PineconeOS/contents/screenshot.png
+SlidePaths=/usr/share/wallpapers/
 
 [Containments][2][Applets][20]
 immutability=1
@@ -99,6 +102,9 @@ plugin=org.kde.plasma.private.systemtray
 popupHeight=432
 popupWidth=432
 wallpaperplugin=org.kde.image
+
+[Containments][26][Wallpaper][org.kde.image][General]
+Image=file:///usr/share/wallpapers/PineconeOS/contents/images/5120x2880.png
 
 [Containments][8][Applets][10]
 immutability=1
@@ -179,4 +185,4 @@ knownItems=org.kde.plasma.bluetooth,org.kde.plasma.cameraindicator,org.kde.plasm
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/Output,0,ef77a5db-3e02-40c3-9045-0d047b746b32,desktop:/share,0,ef77a5db-3e02-40c3-9045-0d047b746b32,desktop:/sddm-breeze-pineconeos,0,ef77a5db-3e02-40c3-9045-0d047b746b32,desktop:/Helpers,0,ef77a5db-3e02-40c3-9045-0d047b746b32,desktop:/breeze-pineconeos,0,ef77a5db-3e02-40c3-9045-0d047b746b32,desktop:/ISO,0,ef77a5db-3e02-40c3-9045-0d047b746b32,desktop:/calamares,0,ef77a5db-3e02-40c3-9045-0d047b746b32,desktop:/breeze,0,ef77a5db-3e02-40c3-9045-0d047b746b32,desktop:/unpackfs1.conf,0,ef77a5db-3e02-40c3-9045-0d047b746b32,desktop:/unpackfs2.conf,0,ef77a5db-3e02-40c3-9045-0d047b746b32,desktop:/PineconeOS-250101,0,ef77a5db-3e02-40c3-9045-0d047b746b32
+screenMapping=desktop:/ISO,0,ef77a5db-3e02-40c3-9045-0d047b746b32,desktop:/calamares,0,ef77a5db-3e02-40c3-9045-0d047b746b32,desktop:/breeze,0,ef77a5db-3e02-40c3-9045-0d047b746b32,desktop:/share,0,ef77a5db-3e02-40c3-9045-0d047b746b32,desktop:/unpackfs2.conf,0,ef77a5db-3e02-40c3-9045-0d047b746b32,desktop:/Output,0,ef77a5db-3e02-40c3-9045-0d047b746b32,desktop:/PineconeOS-250101,0,ef77a5db-3e02-40c3-9045-0d047b746b32,desktop:/breeze-pineconeos,0,ef77a5db-3e02-40c3-9045-0d047b746b32,desktop:/unpackfs1.conf,0,ef77a5db-3e02-40c3-9045-0d047b746b32,desktop:/Helpers,0,ef77a5db-3e02-40c3-9045-0d047b746b32
