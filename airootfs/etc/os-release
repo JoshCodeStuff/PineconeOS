@@ -1,0 +1,11 @@
+NAME="PineconeOS"
+PRETTY_NAME="PineconeOS"
+ID=arch
+BUILD_ID=rolling
+ANSI_COLOR="38;2;23;147;209"
+HOME_URL="https://github.com/JoshCodeStuff/PineconeOS"
+DOCUMENTATION_URL="https://github.com/JoshCodeStuff/PineconeOS"
+SUPPORT_URL="https://github.com/JoshCodeStuff/PineconeOS"
+BUG_REPORT_URL="https://github.com/JoshCodeStuff/PineconeOS"
+PRIVACY_POLICY_URL="https://github.com/JoshCodeStuff/PineconeOS"
+LOGO=archlinux-logo

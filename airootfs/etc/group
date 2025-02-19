@@ -1,0 +1,5 @@
+root:x:0:root
+adm:x:4:sval
+wheel:x:10:sval
+uucp:x:14:sval
+sval:x:1000:
