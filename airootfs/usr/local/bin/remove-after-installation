@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+rm /etc/skel/.config/autostart/calamares.desktop
