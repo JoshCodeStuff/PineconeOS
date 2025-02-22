@@ -1,0 +1,17 @@
+{
+    "KPackageStructure": "Plasma/LookAndFeel",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "Josh",
+                "Name": "Josh",
+            }
+        ],
+        "Category": "",
+        "Description": "Breeze Dark - PineconeOS",
+        "Id": "org.pineconeos.desktop",
+        "License": "GPLv2+",
+        "Name": "Breeze Dark PineconeOS",
+        "Website": "https://github.com/JoshCodeStuff/PineconeOS"
+    }
+}

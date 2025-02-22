@@ -1,0 +1,47 @@
+format = """
+[┌─ ░▒▓](#303030)\
+[  ](bg:#303030 fg:#01acc5)\
+[](bg:#303030 fg:#01acc5)\
+$directory\
+$git_branch\
+$git_status\
+[ ](#303030)\
+$fill\
+[ ](#303030)\
+$cmd_duration\
+$time\
+$line_break[└─ ](fg:#303030)"""
+
+[fill]
+symbol = '────────'
+style = "fg:#303030"
+
+[directory]
+style = "bg:#303030"
+format = "[ $path ]($style)"
+truncation_length = 15
+truncation_symbol = "…/"
+
+[git_branch]
+symbol = ""
+style = "bg:#303030"
+format = '[ ](bg:#303030 fg:#01acc5)[$symbol $branch]($style)'
+
+[git_status]
+style = "bg:#303030"
+format = '[ $all_status$ahead_behind]($style)'
+
+[time]
+disabled = false
+time_format = "%R" # Hour:Minute Format
+style = "bg:#303030 fg:#01acc5"
+format = '[ $time ]($style)'
+
+[line_break]
+disabled = false
+
+[character]
+disabled = true
+
+[cmd_duration]
+format = '[ $duration ](bg:#303030 fg:#01acc5)[](bg:#303030 fg:#01acc5)'

@@ -1,0 +1,1 @@
+QIODevice::readLine (QFile, "/home/sval/.config/kdedefaults/package"): device not open
