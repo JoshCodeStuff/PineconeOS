@@ -69,6 +69,7 @@ memtest86+-efi
 mkinitcpio
 mkinitcpio-archiso
 mkinitcpio-nfs-utils
+mkinitcpio-openswap
 modemmanager
 mtools
 nano
@@ -129,6 +130,7 @@ xl2tpd
 hwinfo
 os-prober
 kpmcore
+icu
 libpwquality
 yaml-cpp
 gtk-update-icon-cache
@@ -192,3 +194,4 @@ filezilla
 podman
 distrobox
 calamares
+ckbcomp

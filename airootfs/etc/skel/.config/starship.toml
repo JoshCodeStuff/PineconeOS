@@ -10,6 +10,7 @@ $fill\
 [ ](#303030)\
 $cmd_duration\
 $time\
+[▓▒░](#303030)\
 $line_break[└─ ](fg:#303030)"""
 
 [fill]
