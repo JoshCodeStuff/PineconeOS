@@ -69,7 +69,6 @@ memtest86+-efi
 mkinitcpio
 mkinitcpio-archiso
 mkinitcpio-nfs-utils
-mkinitcpio-openswap
 modemmanager
 mtools
 nano
@@ -195,3 +194,4 @@ podman
 distrobox
 calamares
 ckbcomp
+mkinitcpio-openswap
